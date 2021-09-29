@@ -1,7 +1,13 @@
 'use strict';
+// import viteCliDemo from 'vite-cli'
 
-module.exports = viteProject;
 
-function viteProject() {
+module.exports = viteProjectDemo;
+
+function viteProjectDemo() {
     // TODO
+    // viteCliDemo()
+    console.log('monorepo-viteProject')
 }
+
+viteProjectDemo()
