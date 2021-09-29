@@ -22,5 +22,10 @@
   },
   "bin": {
     "vite-cli": "./bin/vite.js"
+  },
+  "husky": {
+      "hooks": {
+          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
   }
 }

@@ -3,5 +3,13 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/config-lerna-scopes": "^13.2.0",
+    "commitlint": "^13.2.0",
+    "husky": "^7.0.2",
+    "lerna-changelog": "^2.1.0"
+  }
 }
