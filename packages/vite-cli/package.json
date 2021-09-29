@@ -1,6 +1,6 @@
 {
   "name": "@hrylerna/vite-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "huangrongyao <huangrongyao@foreverider.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "vite-cli": "./bin/vite.js"
   },
   "husky": {
-      "hooks": {
-          "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
